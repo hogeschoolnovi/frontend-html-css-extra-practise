@@ -1,0 +1,42 @@
+.container {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: hsl(212, 36%, 90%);
+    display: grid;
+    row-gap: 16px;
+    column-gap: 16px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 200px 400px 150px;
+    grid-template-areas:
+            "one one one two two two"
+            "three three four four four four"
+            "five five five five five five";
+}
+
+.item {
+    background-color: hsl(212, 43%, 65%);
+    border: 2px solid hsl(212, 43%, 85%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#item-1 {
+    grid-area: one;
+}
+
+#item-2 {
+    grid-area: two;
+}
+
+#item-3 {
+    grid-area: three;
+}
+
+#item-4 {
+    grid-area: four;
+}
+
+#item-5 {
+    grid-area: five;
+}

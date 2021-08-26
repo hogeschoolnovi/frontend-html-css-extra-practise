@@ -1,0 +1,72 @@
+.container {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: hsl(212, 36%, 90%);
+    width: 900px;
+
+    display: grid;
+    row-gap: 16px;
+    column-gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 200px);
+    grid-template-areas:
+            ". . . one"
+            "two two three ."
+            "two two four five"
+            ". . . ."
+            ". six seven seven"
+            "eight nine seven seven"
+            "ten . . .";
+}
+
+.item {
+    background-color: hsl(212, 43%, 65%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#item-1 {
+    grid-area: one;
+}
+
+#item-2 {
+    grid-area: two;
+}
+
+#item-3 {
+    grid-area: three;
+}
+
+#item-4 {
+    grid-area: four;
+}
+
+#item-5 {
+    grid-area: five;
+}
+
+#item-6 {
+    grid-area: six;
+}
+
+#item-7 {
+    grid-area: seven;
+}
+
+#item-8 {
+    grid-area: eight;
+}
+
+#item-9 {
+    grid-area: nine;
+}
+
+#item-10 {
+    grid-area: ten;
+}
+
+#item-2,
+#item-7 {
+    background-color: hsl(208, 48%, 47%);
+}

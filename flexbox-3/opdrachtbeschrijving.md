@@ -12,7 +12,7 @@ Je gaat een menu maken met daarin een logo en menu-items. Zodra de menu-items ni
 ![layout in actie](./assets/endresult-screenshots/scaling-menu.gif)
 
 ### Randvoorwaarden
-* De kleuren die gebruikt zijn: `hsl(35, 40%, 91%)` en `hsl(35, 40%, 91%)`;
+* De kleuren die gebruikt zijn: `hsl(35, 40%, 91%)` en `hsl(210, 69%, 14%)`;
 * Het logo en hamburgericoon zijn bijgevoegd in de assets map, beide zijn SVG's.
 * De "container" waarin je alle onderdelen van het menu plaatst, is `1200px` breed.
 * De enige plekken waar je `padding` of `margin` mag gebruiken zijn in een CSS-reset of in de buitenste twee elementen. De rest los je op met flexbox.
